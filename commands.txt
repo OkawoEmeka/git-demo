@@ -1,0 +1,35 @@
+list command - ls
+change directory - cd
+clear - clear
+
+get version - git --version or git -v
+create username - git config --global user.name "okawo-emeka"
+
+create email - git config --global user.email "okawoemeka@gmail.com"
+global list - git config --global --list
+create local repository - git inint
+
+creating a folder - mkdir folder_name
+Enter a folder - cd f0lder_name
+
+check status - git status
+
+to commit - git commit -m 
+
+git add - stages the file (prepares it for commit)
+git commit - saves it to git history with a message. e.g git commit -m "added: hello.txt"
+git log - check commit log
+
+To commit - git add file_name
+            git commit -m "first commit: added hello.txt"
+get help - git -h or git --help
+specific help (for log) - git log -h or git log --help
+
+show commit in one line - git log --oneline
+see previous version of a file - git show HEAD~1:hello.txt
+show what is changed in the file -  
+
+creaate a branch - git branch branch_name
+switch branch - git checkout branch_name
+merge with another feature: git merge feature_name
+delete branch - git branch -d branch_name
